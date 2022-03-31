@@ -6,6 +6,6 @@ Group 9 will be working on Restaurant APIs, our main focus would be to list all 
 
 ### Endpoints:
 - List all the restaurants which provide **delivery**. *(eg: Uber Eats, SkipTheDishes, etc.)*
-> https://manitoba.restaurtants/api/delivery/?method=ubereats
+> https://manitoba.restaurants/api/delivery/?method=ubereats
 - List all **kinds of food** they serve. *(e.g:- Chinese, Japanese, Continental, Indian, Halal, etc. )*
 - All the restaurants in a **particular city**. *(e.g:- Brandon, Winnipeg, etc.)*
