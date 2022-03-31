@@ -12,7 +12,10 @@ Parameter:
 - `method`: The type of delivery method you want to search for.
   - Examples: `ubereats`, `skipthedishes`, `doordash`, `inhouse`
 
-Response: A JSON object containing restaurants that support the delivery method specified.
+Response: 
+
+This endpoint returns a list of restaurants that support the given delivery method.
+
 ```json
 {
   "result": [
