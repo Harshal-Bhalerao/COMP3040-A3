@@ -6,7 +6,7 @@ Group 9 will be working on Restaurant APIs, our main focus would be to list all 
 
 ### Endpoints:
 #### List all the restaurants which provide delivery through a certain method.
-> https://manitoba.restaurants/api/delivery/?method=UberEats
+> https://manitoba.restaurants/api/delivery/?method=ubereats
 
 Parameter:
 - `method`: The type of delivery method you want to search for.
@@ -25,6 +25,5 @@ Response: A JSON object containing restaurants that support the delivery method 
   ]
 }
 ```
-
 - List all **kinds of food** they serve. *(e.g:- Chinese, Japanese, Continental, Indian, Halal, etc. )*
 - All the restaurants in a **particular city**. *(e.g:- Brandon, Winnipeg, etc.)*
