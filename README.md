@@ -28,5 +28,29 @@ This endpoint returns a list of restaurants that support the given delivery meth
   ]
 }
 ```
-- List all **kinds of food** they serve. *(e.g:- Chinese, Japanese, Continental, Indian, Halal, etc. )*
+### List all kinds of food they serve.
+
+> https://manitoba.restaurants/api/food/?category=Chinese
+
+
+Parameter:
+- `category`: The kind of food you want to search for.
+  - Examples: `Chinese`, `Japanese`, `Continental`, `Indian`
+
+Response:
+
+This endpoint returns a list of restaurants that serve the given kind of food.
+
+```json
+{
+  "result": [
+    {
+      "name": "McDonalds",
+      "city": "Winnipeg",
+      "category": ["chinese", "japanese", "continental", "indian"]
+    },
+    ...
+  ]
+}
+```
 - All the restaurants in a **particular city**. *(e.g:- Brandon, Winnipeg, etc.)*
