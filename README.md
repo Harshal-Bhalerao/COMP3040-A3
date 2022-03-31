@@ -54,3 +54,23 @@ This endpoint returns a list of restaurants that serve the given kind of food.
 }
 ```
 - All the restaurants in a **particular city**. *(e.g:- Brandon, Winnipeg, etc.)*
+> https://manitoba.restaurants/api/city/?name=winnipeg
+
+Parameter: 
+- `name` : The name of the city which will return all the restaurants located in that city.
+- Examples: `winnipeg`, `brandon`
+
+Response: 
+A JSON object that will contain all the restaurant names in a particular city.
+
+```json
+{
+  "result": [
+    {
+      "name": "winnipeg",
+      "restaurants": ["mcdonalds", "burger king", "shwarma khan", "clay oven"]
+    },
+    ...
+  ]
+}
+```
