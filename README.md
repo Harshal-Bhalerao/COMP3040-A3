@@ -53,7 +53,7 @@ This endpoint returns a list of restaurants that serve the given kind of food.
   ]
 }
 ```
-- All the restaurants in a **particular city**. *(e.g:- Brandon, Winnipeg, etc.)*
+### All the restaurants in a **particular city**. *(e.g:- Brandon, Winnipeg, etc.)*
 > https://manitoba.restaurants/api/city/?name=winnipeg
 
 Parameter: 
