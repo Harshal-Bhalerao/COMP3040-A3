@@ -19,8 +19,8 @@ Our group will be working on Restaurant APIs, our main focus would be to create 
     {
       "name": "<String>", // The name of the restaurant
       "city": "<String>", // City where restaurant is located
-      "delivery_methods": <List[<String>]>, // Supported delivery methods
-      "category": <List[<String>]> // Food categories served at this restaurant
+      "delivery_methods": "<List[<String>]>", // Supported delivery methods
+      "category": "<List[<String>]>" // Food categories served at this restaurant
     },
     ...
   ]
@@ -53,6 +53,21 @@ This endpoint returns a list of restaurants that support the given delivery meth
 ### Parameter
 - `category`: The kind of food you want to search for.
   - Examples: `Chinese`, `Japanese`, `Continental`, `Indian`
+
+### Description of Resources
+```json
+{
+  "result": [
+    {
+      "name": "<String>", // The name of the restaurant
+      "city": "<String>", // City where restaurant is located
+      "delivery_methods": "<List[<String>]>", // Supported delivery methods
+      "category": "<List[<String>]>" // Food categories served at this restaurant
+    },
+    ...
+  ]
+}
+```
 
 ### Response
 
