@@ -100,8 +100,8 @@ This endpoint returns a list of restaurants that serve the given kind of food.
 {
   "result": [
     {
-      "name": <String>, // The name of the city
-      "restaurants": <String>, // The name of the restaurant 
+      "name": "<String>", // The name of the city
+      "restaurants": "<List[<String>]>", // The name of the restaurant 
     },
     ...
   ]
