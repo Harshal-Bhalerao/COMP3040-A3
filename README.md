@@ -95,17 +95,17 @@ This endpoint returns a list of restaurants that serve the given kind of food.
 - `name` : The name of the city which will return all the restaurants located in that city.
   - Examples: `winnipeg`, `brandon`, `selkirk`
 
-### Response
-A JSON object that will contain all the restaurant names in a particular city.
-
-```js
+### Description of Resources
+```json
 {
   "result": [
     {
-      "name": "winnipeg",
-      "restaurants": ["mcdonalds", "burger king", "shwarma khan", "clay oven"]
+      "name": <String>, // The name of the city
+      "restaurants": <String>, // The name of the restaurant 
     },
     ...
   ]
 }
 ```
+### Sample Response
+A JSON object that will contain all the restaurant names in a particular city.
