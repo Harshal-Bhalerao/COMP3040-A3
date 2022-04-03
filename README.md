@@ -47,7 +47,7 @@ This endpoint returns a list of restaurants that support the given delivery meth
 ## 2. List all kinds of food they serve.
 
 ### Endpoint
-> https://manitoba.restaurants/api/food/?category=Chinese
+> https://manitoba.restaurants/api/food/?category=chinese
 
 
 ### Parameter
@@ -69,7 +69,7 @@ This endpoint returns a list of restaurants that support the given delivery meth
 }
 ```
 
-### Response
+### Sample Response
 
 This endpoint returns a list of restaurants that serve the given kind of food.
 
