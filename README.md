@@ -12,7 +12,22 @@ Our group will be working on Restaurant APIs, our main focus would be to create 
 - `method`: The type of delivery method you want to search for.
   - Examples: `ubereats`, `skipthedishes`, `doordash`, `inhouse`
 
-### Response
+### Description of Resources
+```json
+{
+  "result": [
+    {
+      "name": "<String>", // The name of the restaurant
+      "city": "<String>", // City where restaurant is located
+      "delivery_methods": <List[<String>]>, // Supported delivery methods
+      "category": <List[<String>]> // Food categories served at this restaurant
+    },
+    ...
+  ]
+}
+```
+
+### Sample Response
 
 This endpoint returns a list of restaurants that support the given delivery method.
 
