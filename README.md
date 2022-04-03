@@ -1,18 +1,18 @@
 # COMP 3040 Assignment 3 
-## Part 1: Group General Description of API
 
-### API descriptions
+## API descriptions
 Group 9 will be working on Restaurant APIs, our main focus would be to list all the restaurants in Manitoba by the kind of food they serve. 
 
-### Endpoints:
-#### List all the restaurants which provide delivery through a certain method.
+
+## List all the restaurants which provide delivery through a certain method.
+### Endpoint
 > https://manitoba.restaurants/api/delivery/?method=ubereats
 
-Parameter:
+### Parameter
 - `method`: The type of delivery method you want to search for.
   - Examples: `ubereats`, `skipthedishes`, `doordash`, `inhouse`
 
-Response: 
+### Response
 
 This endpoint returns a list of restaurants that support the given delivery method.
 
@@ -28,16 +28,17 @@ This endpoint returns a list of restaurants that support the given delivery meth
   ]
 }
 ```
-#### List all kinds of food they serve.
+## List all kinds of food they serve.
 
+### Endpoint
 > https://manitoba.restaurants/api/food/?category=Chinese
 
 
-Parameter:
+### Parameter
 - `category`: The kind of food you want to search for.
   - Examples: `Chinese`, `Japanese`, `Continental`, `Indian`
 
-Response:
+### Response
 
 This endpoint returns a list of restaurants that serve the given kind of food.
 
@@ -53,14 +54,16 @@ This endpoint returns a list of restaurants that serve the given kind of food.
   ]
 }
 ```
-#### All the restaurants in a **particular city**. *(e.g:- Brandon, Winnipeg, etc.)*
+## All the restaurants in a **particular city**. *(e.g:- Brandon, Winnipeg, etc.)*
+
+### Endpoint
 > https://manitoba.restaurants/api/city/?name=winnipeg
 
-Parameter: 
+### Parameter
 - `name` : The name of the city which will return all the restaurants located in that city.
 - Examples: `winnipeg`, `brandon`
 
-Response: 
+### Response
 A JSON object that will contain all the restaurant names in a particular city.
 
 ```json
