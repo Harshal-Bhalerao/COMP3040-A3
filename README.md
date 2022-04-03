@@ -31,7 +31,7 @@ Our group will be working on Restaurant APIs, our main focus would be to create 
 
 This endpoint returns a list of restaurants that support the given delivery method.
 
-```json
+```js
 {
   "result": [
     {
@@ -55,14 +55,14 @@ This endpoint returns a list of restaurants that support the given delivery meth
   - Examples: `Chinese`, `Japanese`, `Continental`, `Indian`
 
 ### Description of Resources
-```json
+```js
 {
   "result": [
     {
-      "name": "<String>", // The name of the restaurant
-      "city": "<String>", // City where restaurant is located
-      "delivery_methods": "<List[<String>]>", // Supported delivery methods
-      "category": "<List[<String>]>" // Food categories served at this restaurant
+      "name": <String>, // The name of the restaurant
+      "city": <String>, // City where restaurant is located
+      "delivery_methods": <List[<String>]>, // Supported delivery methods
+      "category": <List[<String>]> // Food categories served at this restaurant
     },
     ...
   ]
@@ -73,7 +73,7 @@ This endpoint returns a list of restaurants that support the given delivery meth
 
 This endpoint returns a list of restaurants that serve the given kind of food.
 
-```json
+```js
 {
   "result": [
     {
