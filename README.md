@@ -6,21 +6,21 @@ Our group will be working on Restaurant APIs, our main focus would be to create 
 
 ## 1. List all the restaurants which provide delivery through a certain method.
 ### Endpoint
-> https://manitoba.restaurants/api/delivery/?method=ubereats
+> https://manitoba.restaurants/api/delivery/?delivery_method=ubereats
 
 ### Parameter
-- `method`: The type of delivery method you want to search for.
+- `delivery_method`: The type of delivery method you want to search for.
   - Examples: `ubereats`, `skipthedishes`, `doordash`, `inhouse`
 
 ### Description of Resources
-```json
+```js
 {
   "result": [
     {
-      "name": "<String>", // The name of the restaurant
-      "city": "<String>", // City where restaurant is located
-      "delivery_methods": "<List[<String>]>", // Supported delivery methods
-      "category": "<List[<String>]>" // Food categories served at this restaurant
+      "name": <String>, // The name of the restaurant
+      "city": <String>, // City where restaurant is located
+      "delivery_methods": <List[<String>]>, // Supported delivery methods
+      "category": <List[<String>]> // Food categories served at this restaurant
     },
     ...
   ]
@@ -93,7 +93,7 @@ This endpoint returns a list of restaurants that serve the given kind of food.
 
 ### Parameter
 - `name` : The name of the city which will return all the restaurants located in that city.
-- Examples: `winnipeg`, `brandon`, `selkirk`
+  - Examples: `winnipeg`, `brandon`, `selkirk`
 
 ### Response
 A JSON object that will contain all the restaurant names in a particular city.
