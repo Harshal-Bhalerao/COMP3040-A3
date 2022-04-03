@@ -17,10 +17,10 @@ Our group will be working on Restaurant APIs, our main focus would be to create 
 {
   "result": [
     {
-      "name": <String>, // The name of the restaurant
-      "city": <String>, // City where restaurant is located
-      "delivery_methods": <List[<String>]>, // Supported delivery methods
-      "category": <List[<String>]> // Food categories served at this restaurant
+      "name": "<String>", // The name of the restaurant
+      "city": "<String>", // City where restaurant is located
+      "delivery_methods": "<List[<String>]>", // Supported delivery methods
+      "category": "<List[<String>]>" // Food categories served at this restaurant
     },
     ...
   ]
@@ -59,10 +59,10 @@ This endpoint returns a list of restaurants that support the given delivery meth
 {
   "result": [
     {
-      "name": <String>, // The name of the restaurant
-      "city": <String>, // City where restaurant is located
-      "delivery_methods": <List[<String>]>, // Supported delivery methods
-      "category": <List[<String>]> // Food categories served at this restaurant
+      "name": "<String>", // The name of the restaurant
+      "city": "<String>", // City where restaurant is located
+      "delivery_methods": "<List[<String>]>", // Supported delivery methods
+      "category": "<List[<String>]>" // Food categories served at this restaurant
     },
     ...
   ]
@@ -98,7 +98,7 @@ This endpoint returns a list of restaurants that serve the given kind of food.
 ### Response
 A JSON object that will contain all the restaurant names in a particular city.
 
-```json
+```js
 {
   "result": [
     {
