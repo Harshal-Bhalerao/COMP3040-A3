@@ -1,7 +1,7 @@
 # COMP 3040 Assignment 3 
 
 ## API description
-Our group will be working on Restaurant APIs, our main focus would be to create API endpoints related to restaurants that are located in Manitoba. Here is a list of 3 API endpoints that our API would serve:
+Our group will be working on Restaurant APIs, our main focus would be to create API endpoints related to restaurants that are located in Manitoba. These set of APIs would help the food enthusiasts to choose their favorite food of choice. Here is a list of 3 API endpoints that our API would serve:
 
 
 ## 1. List all the restaurants which provide delivery through a certain method.
